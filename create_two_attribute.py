@@ -1,3 +1,8 @@
-#Create a "Person" class
+#"Shaxs" sinfini yarating
 
-#that has a name("name") and a age("age")
+#buning ismi("ism") va yoshi("yoshi") bor
+
+class Person:
+    def __init__(self, name, age) -> None:
+        self.ismi=name
+        self.yoshi=age
